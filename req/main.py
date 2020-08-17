@@ -85,4 +85,5 @@ if __name__ == "__main__":
         count = int(sys.argv[2])
     except:
         count = 0
+    # print(sys.argv)
     run(start_year=start, years_ago=count)
